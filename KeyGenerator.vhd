@@ -80,9 +80,4 @@ begin
         n_key <= N;
     end process;
 
-    -- Additional logic for key generation (e.g., calculation of private key 'd')
-    -- e * d mod T = 1
-    -- e must be < T and coprime with N and T
-    -- Add your key generation logic here
-
 end architecture rtl;
