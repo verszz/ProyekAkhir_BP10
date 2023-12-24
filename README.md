@@ -26,14 +26,24 @@ In each processing cycle, the program generates two random numbers (rand_int1 an
 This process is repeated until the two resulting numbers are truly prime numbers. After that, the prime numbers are copied into the output p and q. In summary, the goal of this program is to provide two prime numbers (p and q) as output based on a clock signal, by ensuring that these numbers are truly prime numbers through the trial and error method.
 
 ## How to Use
--
+Our program works is encryption and decryption a message. In Sender.vhd, you will be given a message in the form of a string of 10 capital letters, each letter separated by whitespace. The message will be processed by the main program Receiver.vhd.
 
 ## Finite State Machine
--
+![image](https://github.com/verszz/ProyekAkhir_BP10/assets/128483728/9b83b8a7-0daf-4411-92a0-f7e8fe627b17)
  
 ## Testing
--
+To test the encryption and decryption of this message, use the Sender.vhd file which acts as a testbench. In the Sender file, you will be given a message in the form of a string of 10 capital letters, each letter separated by whitespace. The message will be processed by the main program Receiver.vhd.
 
-## Result
-### Wave
+## Result and Wave
+### Sender.vhd
+![image](https://github.com/verszz/ProyekAkhir_BP10/assets/128483728/460fd52c-df73-42fa-9bc4-7bf6907518c9)
+
+### Receiver.vhd
+![image](https://github.com/verszz/ProyekAkhir_BP10/assets/128483728/d9ea7088-1a4d-4822-a033-ac904d080a24)
+
+### RandomPrimeGenerator.vhd
+![image](https://github.com/verszz/ProyekAkhir_BP10/assets/128483728/337aa0e9-9ce5-4336-abf6-703e1942339f)
+
+### KeyGenerator.vhd
+![image](https://github.com/verszz/ProyekAkhir_BP10/assets/128483728/d2722e25-30b8-4594-9753-f412eeec4836)
 -
